@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patryk Wańdiuk</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap" rel="stylesheet">
+    <script>
+        window.onscroll = function ()
+        {
+            var Position = window.pageYOffset;
+            if(Position < 70)
+            {
+                document.getElementById('menu').style.top = "0px";
+            }
+            else
+            {
+                document.getElementById('menu').style.top = "-100px";
+            }
+        }
+    </script>
+</head>
+<body>
+    <a name="top"></a>
+    <div id="menu">
+        <div id="name">
+            <h2>Patryk Wańdiuk</h2>
+        </div>
+        <ul>
+            <li><a id="slide" href="#projects">My projects</a></li>
+            <li><a id="slide" href="#about">About me</a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <h1>Hello! Patryk Wańdiuk here!</h1>
+        <h2>And this is my portfolio!</h2>
+        <p>I'm junior web developer and I am looking for new oportunities to challenge myself and learn new things.</p>
+        <p>Currently I am making small projects to fill my portfiolio and increase my skills in programming.</p>
+        <p>If you want to ask me something, you can easily contact me.</p>
+        <p id="break"></p>
+        <a id="mail" href="mailto:patrykwandiuk@gmail.com">Contact Me</a>
+    </div>
+    <div id="about">
+        <h1>About me!</h1>
+        <p>Hello! I am <span id="highlight">Patryk Wańdiuk</span> and my first interaction with programming was in middle school, I became interested in it as soon as i saw it and started making website in my free time more and more</p>
+        <p>Currently I am working as a freelancer doing some small projects</p>
+    </div>
+    <div id="projects">
+        <h1>My projects</h1>
+        <h2>Click on image to see full website</h2>
+        <div id="project">
+            <div id="pL">
+                This is the website I made for fake hotel named Ibisa.
+            </div>
+            <div id="pR">
+                <a href="https://patrykwandiuk.github.io/Ibisa-Hotel/" target="_blank"><img src="Ibisa.png" alt="Ibisa"></a>
+            </div>
+        </div>
+    </div>
+    <div id="footer"><a id="slide" href="#top">Back To Top</a></div>
+</body>
+</html>
